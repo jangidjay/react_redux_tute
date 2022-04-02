@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     </>
@@ -18,3 +18,6 @@ function App() {
 }
 
 export default App;
+
+
+// 54.33
